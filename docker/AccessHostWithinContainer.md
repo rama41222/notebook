@@ -24,7 +24,7 @@ services:
 ###### Using docker run
 ```
 docker run -it --net=host  
-docker run -it --network="host"
+docker run -it --network=host
 ```
 
 ### Accessing host from docker container in MAC
