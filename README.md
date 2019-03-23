@@ -5,4 +5,4 @@ Docs
     * [Nodejs app docker deployment](./docker/nodejs-app-docker-deployment.md)
     
 * [DevOps](./devops)
-    * [Generate ssh keys for git.md](./devops/generate-ssh-keys-for-git.md)
+    * [Generate ssh keys for git](./devops/generate-ssh-keys-for-git.md)
