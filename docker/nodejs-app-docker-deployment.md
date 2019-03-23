@@ -41,11 +41,32 @@ $ ssh -i "sshkeyfile.pem" ubuntu@hostname
     ```
     sudo systemctl status docker
     ```
-8. Create the .env file and input all the env variables
+    
+### Docker Compose
+
+1. Import the repository
+    ```
+    sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+    ```
+2. Set the permissions
+    ```
+    sudo chmod +x /usr/local/bin/docker-compose
+    ```
+3. Now **docker-compose** should be working. Use the following command to check the version
+    ```
+    docker-compose --version
+    ```
+    
+### API      
+ 
+1. Create the .env file and input all the env variables
     ```
     touch .env
     ```
-9.  Use the docker compose file to run the api
+    
+### Run      
+
+1.  Use the docker compose file to run the api
     ```
     docker-compose build && docker-compose up
     ```
