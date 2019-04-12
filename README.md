@@ -18,3 +18,10 @@ Docs
 
 * [Mongodb](./mongo)
     * [Dropping a database](./mongo/drop-database.md)
+
+* [SQL](./sql)
+    * [Bit Datatype](./sql/datatypes.md)
+    * [varchar vs nvarchar](./sql/varchar-nvachar.md)
+    
+* [GIT](./git)
+    * [Set Remote Url](./git/set-remote-url.md)
